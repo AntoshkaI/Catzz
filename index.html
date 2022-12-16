@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catzz</title>
+</head>
+<body>
+    <header>
+        <a class="header__logo">котики</a>
+        <nav class="header__menu">
+            <button id="open" class="header__btn open">+</button>
+        </nav>
+    </header>
+    <main>
+        <div class="container"></div>
+        <div class="overlay">
+            <div class="modal">
+                <h1>добавить котика</h1>
+                <form id="addCat" class="form">
+                    <div class="mb8">
+                        <input id="inp1" type="text" name="name" autocomplete="off" required>
+                        <label class="label" for="name">имя</label>
+                    </div>
+                    <div class="mb8">
+                        <input id="inp2" type="text" name="age" autocomplete="off" required>
+                        <label class="label" for="age">сколько годиков</label>
+                    </div>
+                    <div class="mb8">
+                        <input id="inp2" type="number" name="id" autocomplete="off" required>
+                        <label class="label" for="id">id</label>
+                    </div>
+                    <div class="mb8">
+                        <input id="inp2" type="url" name="img_link" autocomplete="off" required>
+                        <label class="label" for="img_link">фото</label>
+                    </div>
+                </а>
+                <button type="submit" class="btn">добавить</button>
+                <div class="close">
+                   ✖
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="adder.js"></script>
+</body>
+</html>
